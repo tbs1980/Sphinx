@@ -30,8 +30,8 @@ import os
 # ones.
 extensions = ['sphinx.ext.pngmath', 'sphinx.ext.todo', 'breathe']
 
-breathe_projects = { "sphinxC++": "xml" }
-breathe_default_project = "sphinxC++"
+breathe_projects = { "SphinxC++Doc": "@CMAKE_BINARY_DIR@/doc/xml" }
+breathe_default_project = "SphinxC++Doc"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SphnixC++'
+project = u'SphinxC++Doc'
 copyright = u'2014, Sreekumar Thaithara Balan'
 
 # The version info for the project you're documenting, acts as replacement for

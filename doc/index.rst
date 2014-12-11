@@ -5,4 +5,6 @@ C++ Format
 .. toctree::
    :maxdepth: 2
 
-   usage
+.. doxygenclass:: cppclass::cppClass
+   :project: SphinxC++Doc
+   :members:
